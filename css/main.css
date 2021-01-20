@@ -62,7 +62,7 @@ a {
 }
 
 .hero {
-  background: url(../../img/bgleaf.png) right bottom no-repeat;
+  background: url(../img/bgleaf.png) right bottom no-repeat;
   background-color: #61c4d9;
   height: 100vh;
   color: #fff;
@@ -72,11 +72,11 @@ a {
   position: absolute;
   bottom: -40px;
   left: 2%;
-  content: url(../../img/corner_leaf.png);
+  content: url(../img/corner_leaf.png);
 }
 .hero:after {
   position: absolute;
-  content: url(../../img/berries.png);
+  content: url(../img/berries.png);
   bottom: -40px;
   right: 0;
 }
@@ -91,7 +91,7 @@ a {
   justify-content: space-between;
   height: 100%;
   padding: 24px 0 45px;
-  background: url(../../img/chocolates.png) right center/50% auto no-repeat;
+  background: url(../img/chocolates.png) right center/50% auto no-repeat;
 }
 
 .hero__main-title {
@@ -250,7 +250,7 @@ a {
   position: relative;
 }
 .benefits__item:before {
-  content: url(../../img/separator.png);
+  content: url(../img/separator.png);
   position: absolute;
   top: 50px;
   right: 0;
@@ -314,10 +314,10 @@ a {
 
 .benefits-section {
   position: relative;
-  background: url(../../img/grayleaf.png) left top 56% no-repeat;
+  background: url(../img/grayleaf.png) left top 56% no-repeat;
 }
 .benefits-section:before {
-  content: url(../../img/raspberry.png);
+  content: url(../img/raspberry.png);
   position: absolute;
   bottom: -80px;
   left: 0;
@@ -326,7 +326,7 @@ a {
 .reviews__display {
   background-color: #F8FAF9;
   padding: 50px 45px 34px;
-  background: #f8faf9 url(../../img/bgleafdesc.png) right top no-repeat;
+  background: #f8faf9 url(../img/bgleafdesc.png) right top no-repeat;
   margin-bottom: 20px;
   overflow: hidden;
   position: relative;
@@ -417,34 +417,34 @@ a {
 
 .reviews-section {
   position: relative;
-  background: url(../../img/grayleaf2.png) left bottom no-repeat;
+  background: url(../img/grayleaf2.png) left bottom no-repeat;
 }
 .reviews-section:before {
-  content: url(../../img/berries2.png);
+  content: url(../img/berries2.png);
   position: absolute;
   bottom: 50px;
   left: 0;
 }
 .reviews-section:after {
   position: absolute;
-  content: url(../../img/strawberry.png);
+  content: url(../img/strawberry.png);
   right: 3%;
   top: 18%;
 }
 
 .order-section {
   min-height: 650px;
-  background: url(../../img/f4b3e323e1385106649e7de4219cd9d4.png) center no-repeat;
+  background: url(../img/f4b3e323e1385106649e7de4219cd9d4.png) center no-repeat;
   position: relative;
 }
 .order-section:before {
-  content: url(../../img/blackberry.png);
+  content: url(../img/blackberry.png);
   position: absolute;
   right: 0;
   top: -150px;
 }
 .order-section:after {
-  content: url(../../img/orderleaf.png);
+  content: url(../img/orderleaf.png);
   position: absolute;
   bottom: 8%;
   right: 2%;
@@ -511,7 +511,7 @@ a {
   border-radius: 0;
 }
 .radio--checkbox .radio__visible:before {
-  background: url("../../img/Vector.png") center center no-repeat;
+  background: url(../img/Vector.png) center center no-repeat;
 }
 
 .radio__elem {
