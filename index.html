@@ -134,7 +134,125 @@
           </ul>
         </div>
       </section>
-
+      
+      <section class="section section-slider fp-auto-height-responsive" data-anchor="section-slider">
+        <div class="container section-slider__container">
+            <div class="slider">
+                <div class="slider__arrows">
+                    <a class="slider__link">
+                        <svg class="slider__svg slider__svg--left">
+                            <use xlink:href="./img/sprite.svg#arrow"></use>
+                        </svg>
+                    </a>
+                    <a class="slider__link">
+                        <svg class="slider__svg slider__svg--right">
+                            <use xlink:href="./img/sprite.svg#arrow"></use>
+                        </svg>
+                    </a>
+                </div>
+                <ul class="slider__list">
+                    <li class="slider__item">
+                        <div class="composition">
+                            <div class="composition__logo">
+                                <svg width="51px" height="51px" class="composition__svg">
+                                    <use xlink:href="./img/sprite.svg#chocolate-bar"></use>
+                                </svg>
+                                <div class="composition__title">состав</div>
+                            </div>
+                            <div class="composition__drop-table">
+                                <ul class="composition__list">
+                                    <li class="composition__item">
+                                        <div class="composition__icon">
+                                            <svg width="40px" height="35px" class="oat">
+                                                <use xlink:href="./img/sprite.svg#oat"></use>
+                                            </svg>
+                                        </div>
+                                        <div class="composition__text">Овёс</div>
+                                        <div class="composition__weight">25г</div>
+                                    </li>
+                                    <li class="composition__item">
+                                        <div class="composition__img">
+                                            <svg width="40px" height="35px" class="seaweed">
+                                                <use xlink:href="./img/sprite.svg#seaweed"></use>
+                                            </svg>
+                                        </div>
+                                        <div class="composition__text">Мор.водоросли</div>
+                                        <div class="composition__weight">15г</div>
+                                    </li>
+                                    <li class="composition__item">
+                                        <div class="composition__img">
+                                            <svg width="40px" height="35px" class="almond">
+                                                <use xlink:href="./img/sprite.svg#almond"></use>
+                                            </svg>
+                                        </div>
+                                        <div class="composition__text">Миндаль</div>
+                                        <div class="composition__weight">20г</div>
+                                    </li>
+                                    <li class="composition__item">
+                                        <div class="composition__img">
+                                            <svg width="40px" height="35px" class="washing-powder">
+                                                <use xlink:href="./img/sprite.svg#washing-powder"></use>
+                                            </svg>
+                                        </div>
+                                        <div class="composition__text">Сухое молоко</div>
+                                        <div class="composition__weight">10г</div>
+                                    </li>
+                                    <li class="composition__item">
+                                        <div class="composition__img">
+                                            <svg width="40px" height="35px" class="seeds">
+                                                <use xlink:href="./img/sprite.svg#seeds"></use>
+                                            </svg>
+                                        </div>
+                                        <div class="composition__text">Тыкв.семечки</div>
+                                        <div class="composition__weight">20г</div>
+                                    </li>
+                                    <li class="composition__item">
+                                        <div class="composition__img">
+                                            <svg width="40px" height="35px" class="apitherapy">
+                                                <use xlink:href="./img/sprite.svg#apitherapy"></use>
+                                            </svg>
+                                        </div>
+                                        <div class="composition__text">Зам.сахара</div>
+                                        <div class="composition__weight">4г</div>
+                                    </li>
+                                    <li class="composition__item">
+                                        <div class="composition__img">
+                                            <svg width="40px" height="35px" class="beans">
+                                                <use xlink:href="./img/sprite.svg#beans"></use>
+                                            </svg>
+                                        </div>
+                                        <div class="composition__text">Какао бобы</div>
+                                        <div class="composition__weight">4г</div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="slider__col">
+                            <div class="slider__img">
+                                <img src="./img/granola.png" alt="батончики">
+                            </div>
+                        </div>
+                        <div class="slider__col slider__col--right">
+                            <h3 class="slider__title">батончик &laquo;морские водоросли&raquo;</h3>
+                            <div class="slider__text">Гранола из морских водорослей с овсом,
+                            миндалем и тыквенными семечками. В состав также входят: сухое молоко,
+                            заменитель сахара и какао бобы.
+                            </div>
+                            <div class="slider__features">
+                                <div class="slider__calorific">Калорийность<span>120 ккал</span></div>
+                                <div class="slider__weight">Вес<span>98 грамм</span></div>
+                            </div>
+                            <div class="slider__order">
+                                <div class="slider__price">140<span>&#8381;</span></div>
+                                <a href="#" class="btn btn--theme--green btn__slider">заказать</a>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+      </section>
+      
       <section class="section reviews-section">
         <div class="container">
           <h2 class="section__title">отзывы</h2>
@@ -306,5 +424,21 @@
       </li>
     </ul>
   </nav>
+  <script type="html/template" id="overlayTemplate">
+    <nav class="mobile-menu">
+      <ul class="mobile-menu__list">
+        <a href="#" class="close"><img src="./img/vectorclose.png" alt="close" class="close__img"></a>
+        <li class="mobile-menu__item"><a href="#" class="mobile-menu__link">О нас</a></li>
+        <li class="mobile-menu__item"><a href="#" class="mobile-menu__link">Батончики</a></li>
+        <li class="mobile-menu__item"><a href="#" class="mobile-menu__link">Команда</a></li>
+        <li class="mobile-menu__item"><a href="#" class="mobile-menu__link">Меню</a></li>
+        <li class="mobile-menu__item"><a href="#" class="mobile-menu__link">Отзывы</a></li>
+        <li class="mobile-menu__item"><a href="#" class="mobile-menu__link">Как мы работаем</a></li>
+        <li class="mobile-menu__item"><a href="#" class="mobile-menu__link">Контакты</a></li>
+      </ul>
+    </nav>
+  </script>
+  <script src="./js/mobile_menu.js">
+  </script>
 </body>
 </html>
